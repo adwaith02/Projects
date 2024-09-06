@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 3px;
+    width: 30%;
+    background-color: rgb(236, 57, 253);
+}
+th,td{ /*group selector*/
+    border: 3px solid  rgb(190, 45, 203);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* td{
+    border: 3px solid rgb(212, 143, 225);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(232, 175, 244);
+    color: white;
+} */
+
+tr:hover{ /* : -> pseudo-class selector */
+    background-color: red;
+}
+
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: orange;
+}

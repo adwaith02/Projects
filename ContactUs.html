@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(196, 47, 196);
+        }
+        form{
+            border: 3px solid white;
+            background-color: white;
+            font-family: sans-serif;
+            font-size: 10px;
+            width: 400px;
+            height: 400px;
+            margin-left: 35%;
+            margin-top: 5%;
+            padding: 20px;
+        }
+        h2{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        label{
+            text-align: left;
+            margin: 5%;
+        }
+        input[type="text"]{
+            width: 40%;
+            margin-left: 5%;
+        }
+        input[type="email"]{
+            width: 90%;
+            margin-left: 5%;
+        }
+        input[type="number"]{
+            width: 90%;
+            margin-left: 5%;
+        }
+        input[type="submit"]{
+            margin-left: 40%;
+            border-radius: 20px;
+            height: 30px;
+            background-color: rgb(33, 31, 31);
+            color: white;
+        }
+        textarea{
+            margin-left: 5%;
+            width: 90%;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Contact Us</h2>
+        <label for="Name">YOUR NAME *</label><br>
+        <input type="text" placeholder="First Name"> &emsp;
+        <input type="text" placeholder="Last Name"><br><br>
+        <label for="Email">EMAIL ADDRESS *</label><br>
+        <input type="email" placeholder="E.g. example@gmail.com"><br><br>
+        <label for="Phone">PHONE NUMBER</label><br>
+        <input type="number" placeholder="E.g. +1 800 000000"><br><br>
+        <label for="Message">MESSAGE *</label><br>
+        <textarea name="Message" id="" placeholder="Pleae enter your comments..."></textarea><br><br>
+        <input type="submit" value="Submit ->"><br><br><br>
+    </form>
+
+</body>
+</html>

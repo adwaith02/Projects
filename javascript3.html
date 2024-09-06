@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript3</title>
+</head>
+<body>
+    
+    <p id="p-id"></p>
+    <p id="p-id1"></p>
+
+
+
+
+
+    <script>
+
+        // Assignment Operators
+
+        let x=10;
+        x+=5;
+        console.log(x);
+        
+        let y=20;
+        y-=10;
+        console.log(y);
+        
+        x*=y;
+        console.log(x);
+
+        x/=y;
+        console.log(x);
+        
+        x%=y;
+        console.log(x);
+
+        x=2;
+        x**=y;
+        console.log(x);
+        console.log(y);
+
+
+        // Comparison Operators
+        let z;
+        z=x==y;
+        console.log(z);
+        
+        z=x!=y;
+        console.log(z);
+
+        z=x===y;
+        console.log(z);
+
+        z=x!==y;
+        console.log(z);
+
+        z=x>y;
+        console.log(z);
+
+        z=x<y;
+        console.log(z);
+
+        z=x>=y;
+        console.log(z);
+
+        z=x<=y;
+        console.log(z);
+
+        // Logical Operators
+        console.log("Logical Operators");
+        
+        let l=5;
+
+        console.log(l<4&&l>1); //false
+        console.log(l<6&&l>1); //true
+        
+        console.log(l<3||l>8); //false
+        console.log(l<6||l>1); //true
+
+        console.log(!(x<6)); //condition is true but o/p is false, not operator
+        console.log(!(x>3)); //condition is false but o/p is true, not operator
+        
+        const x1=5, y1=3;
+        console.log((x1<6)&&(y1<5)); //true
+
+        let num1=5;
+        let num2=10;
+
+        let result = (num2>num1)? "Num2 greater":"Num2 not greater";
+        document.getElementById("p-id").innerHTML = result;
+
+        result = (num2<num1)? "Num1 greater":"Num1 not greater";
+        document.getElementById("p-id1").innerHTML = result;
+
+        // let marks = prompt("Enter your marks");
+        // marks = (marks>50)? "You Passed": "You failed";
+        // window.alert(marks);
+
+        //Question: Check the age to determine the eligibility to vote
+
+        // let eligible = prompt("Enter your age");
+        // eligible = (eligible>=18)? "You are eligible to vote":"You're not eligible to vote";
+        // window.alert(eligible);
+
+        //Question: Check inputted no is positive or negative
+         let num = prompt("Enter Number");
+         num = (num>=0)? "Num is Positive":"Num is Negative";
+         window.alert(num);
+        
+
+
+        
+        
+        
+        
+
+
+    </script>
+
+
+</body>
+</html>

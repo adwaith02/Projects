@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(180deg, rgb(250, 207, 255), rgb(255, 140, 190));
+}
+
+.cont1{
+    background-color: white;
+
+}
+
+.heading{
+    background-color: rgb(255, 110, 161);
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+input.form-control{
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid palevioletred;
+    background-color: rgb(254, 167, 181);
+}
+
+label.col-form-label{
+    color: palevioletred;
+    font-weight: 500;
+}
+
+label.form-label{
+    color: palevioletred;
+    font-weight: 500;
+}
+
+small{
+    color: palevioletred;
+}
+
+input.form-check-input{
+    border: 2px solid palevioletred;
+}
+
+.signature p{
+    color: palevioletred;
+    font-weight: 500;
+}
+
+button{
+    color: white;
+    border: 1px solid pink;
+    background-color: palevioletred;
+    width: 100px;
+    height: 40px;
+}

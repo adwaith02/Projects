@@ -1,0 +1,177 @@
+.maindiv{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 650px;
+    height: 1050px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maindiv h4{
+    color: rgb(180, 93, 122);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+body{
+    background-color: black;
+}
+
+.name{
+    background-color:rgb(180, 93, 122);
+    color: white;
+    height: 150px;
+}
+
+.name h1{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    font-size: 40px;
+}
+
+.name h3{
+    position: relative;
+    left: 300px;
+    top: 10px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.image{
+    position: relative;
+    left: 70px;
+    bottom: 120px;
+}
+
+.image img{
+    width: 180px;
+}
+
+.leftdiv hr{
+    border: 1px solid rgb(180, 93, 122);
+    width: 95px;
+    position: relative;
+    right: 76px;
+    bottom: 15px;
+}
+
+.leftdiv{
+    position: relative;
+    left: 60px;
+    bottom: 120px;
+    width: 250px;
+    font-size: 12px;
+}
+
+.rightdiv{
+    position: relative;
+    left: 300px;
+    bottom: 1040px;
+    width: 300px;
+    font-size: 12px;
+}
+
+.rightdiv hr{
+    border: 1px solid rgb(180, 93, 122);
+    width: 95px;
+    position: relative;
+    right: 102px;
+    bottom: 15px;
+}
+
+.mycontact ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+    line-height: 0.2cm;
+}
+
+.mycontact img{
+    width: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.hardskill ul{
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+    line-height: 0.4cm;
+}
+
+.hardskill{
+    position: relative;
+    bottom: 20px;
+}
+
+.softskill ul{
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+    line-height: 0.4cm;
+}
+
+.softskill{
+    position: relative;
+    bottom: 50px;
+}
+
+.education ul{
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+    line-height: 0.6cm;
+}
+
+.education li::marker{
+    font-size: 1.2rem;
+}
+
+.education{
+    position: relative;
+    bottom: 50px;
+}
+
+.aboutme p{
+    position: relative;
+    bottom: 20px;
+    line-height: 0.4cm;
+}
+
+.experience{
+    position: relative;
+    bottom: 20px;
+}
+
+.experience p{
+    position: relative;
+    bottom: 15px;
+}
+
+.experience ul{
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+}
+
+.achievements{
+    position: relative;
+    bottom: 40px;
+}
+
+.description{
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+    line-height: 0.4cm;
+}
+
+footer{
+    background-color: rgb(180, 93, 122);
+    height: 30px;
+    position: relative;
+    bottom: 1050px;
+}

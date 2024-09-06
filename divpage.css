@@ -1,0 +1,28 @@
+.html{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+hr{
+    border: 3px solid grey;
+}
+
+.what{
+    border: 8px solid pink;
+    padding: 5px;
+}
+
+.how{
+    border: 8px solid red;
+    padding: 5px;
+}
+
+.why{
+    border: 8px solid blue;
+    padding: 5px;
+}
+
+.img{
+    width: 50%;
+}

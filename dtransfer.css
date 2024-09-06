@@ -1,0 +1,319 @@
+.maindiv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+    position: absolute;
+    width: 1450px ;
+    height: 650px ;
+}
+
+.section1 .leftdiv{
+    background-color: rgb(46, 80, 234);
+    color: white;
+    height: 650px;
+    width: 1500px;
+}
+
+.section1 .leftdiv p{
+    position: relative;
+    left: 80px;
+    top: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 200px;
+}
+
+.section1 .rightdiv{
+    position: relative;
+    left: 720px;
+    bottom: 650px;
+    width: 700px;
+    height: 650;
+}
+
+.section1 .rightdiv img{
+    width: 780px;
+    height: 650px;
+}
+
+.section1 .txtdiv{
+    position: relative;
+    bottom: 1200px;
+    left: 80px;
+    color: white;
+    width: 800px;
+    height: 100px;
+}
+
+.section1 .txtdiv h1{
+    font-size: 112px;
+    word-spacing: 10px;
+    line-height: 2.5cm;
+}
+
+.section1 .txtdiv p{
+    font-size: 14px;
+    position: relative;
+    bottom: 30px;
+    width: 600px;
+    height: 10px;
+}
+
+.section1 .txtdiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+}
+
+.section2 .imgbanner{
+    position: relative;
+    top: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section3{
+    position: relative;
+    top: 800px;
+    height: 500px;
+}
+
+.section3 img{
+    width: 750px;
+    height: 500px;
+}
+
+.section3 .rightdiv{
+    position: relative;
+    left: 850px;
+    bottom: 400px;
+    width: 650px;
+}
+
+.section3 .rightdiv h1{
+    font-size: 72px;
+    word-spacing: 10px;
+    line-height: 2.0cm;   
+}
+
+.section3 .rightdiv p{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    line-height: 0.6cm;
+}
+
+.section3 .rightdiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+}
+
+.section3 .rightdiv span{
+    color: rgb(70, 79, 255);
+}
+
+.section4{
+    position: relative;
+    top: 800px;
+    height: 500px;
+}
+
+.section4 img{
+    width: 650px;
+    height: 500px;
+}
+
+.section4 .rightdiv{
+    position: relative;
+    left: 850px;
+    bottom: 150px;
+    width: 650px;
+}
+
+.section4 .leftdiv{
+    position: relative;
+    top: 300px;
+    left: 100px;
+    width: 600px;
+}
+
+.section4 .leftdiv h1{
+    font-size: 72px;
+    word-spacing: 10px;
+    line-height: 2.0cm;   
+}
+
+.section4 .leftdiv p{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    line-height: 0.6cm;
+}
+
+.section4 .leftdiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+}
+
+.section5{
+    position: relative;
+    top: 1200px;
+    height: 500px;
+}
+
+.section5 img{
+    width: 750px;
+    height: 500px;
+}
+
+.section5 .rightdiv{
+    position: relative;
+    left: 850px;
+    bottom: 400px;
+    width: 650px;
+}
+
+.section5 .rightdiv h1{
+    font-size: 72px;
+    word-spacing: 10px;
+    line-height: 2.0cm;   
+}
+
+.section5 .rightdiv p{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    line-height: 0.6cm;
+}
+
+.section5 .rightdiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+}
+
+.section6{
+    position: relative;
+    top: 1300px;
+    height: 500px;
+    text-align: center;
+}
+
+.section6 .middiv h1{
+    font-size: 72px;
+    word-spacing: 10px;
+    line-height: 2.0cm;   
+}
+
+.section6 .middiv p{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    line-height: 0.6cm;
+}
+
+.section6 .middiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+}
+
+.section7{
+    position: relative;
+    top: 1300px;
+    height: 340px;
+    text-align: center;
+    background-color: rgb(32, 71, 209);
+    color: white;
+}
+
+.section7 .middiv h1{
+    font-size: 72px;
+    word-spacing: 10px;
+    line-height: 2.0cm;   
+    position: relative;
+    top: 40px;
+}
+
+.section7 .middiv input[type=button]{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background-color:rgb(236, 44, 146) ;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+footer{
+    position: relative;
+    top: 1284px;
+    text-align: center;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    height: 290px;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+}
+
+footer ul{
+    position: relative;
+    right: 10px;
+}
+
+footer h2{
+    position: relative;
+    top: 100px;
+}
+
+footer small{
+    position: relative;
+    top: 150px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}

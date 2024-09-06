@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+
+.pardiv{
+    position: relative;
+}
+.imgdiv{
+    position: sticky;
+    width: 500px;
+    height: 300px;
+    left: 400px;
+    top: 200px;
+}
+
+.childdiv{
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+    width: 400px;
+}

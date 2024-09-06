@@ -1,0 +1,475 @@
+body{
+    background-color:rgb(21, 153, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.maindiv{
+    width: 1050px;
+    background-color:rgb(237, 237, 237);
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center; */
+    font-family: sans-serif;
+    height: 3080px;
+}
+
+.navbarleft img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.navdiv ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10%;
+    width: auto;
+    margin-right: 0.5%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.navdiv a{
+    text-decoration: none;
+    color: black;
+}
+
+.navdivleft{
+    position: relative;
+    left: 30px;
+    width: 400px;
+}
+
+.navdivright{
+    position: relative;
+    left: 750px;
+    bottom: 40px;
+    width: 250px;
+}
+
+.navbarright input[type=button]{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color:rgb(21, 153, 255);
+    color: white;
+}
+
+.s1{
+    text-align: center;
+}
+
+.s1 small{
+    color: rgb(117, 164, 193);
+}
+
+.s1 input[type=search]{
+    height: 60px;
+    width: 850px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+
+.s1 input[type=search]::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.s2{
+    position: relative;
+    top: 200px;
+}
+
+.s2 .leftdiv{
+    position: relative;
+    left: 80px;
+    width: 880px;
+}
+
+.s2 .leftdiv small{
+    color:rgb(88, 138, 188);
+}
+
+.s2 .rightdiv input{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color:rgb(21, 153, 255);
+    color: white;
+    position: relative;
+    left: 750px;
+    bottom: 60px;
+}
+
+.s2 .middiv{
+    background-color: rgb(224, 232, 237);
+    width: 870px;
+    height: 250px;
+    position: relative;
+    left: 80px;
+    border-radius: 8px;
+}
+
+.s2 .textdiv{
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+    line-height: 0.7cm;
+    color: rgb(130, 168, 194);
+    width: 600px;
+}
+
+.s2 hr{
+    width: 50px;
+    position: relative;
+    right: 499px;
+    border: 2px solid rgb(73, 199, 253);
+}
+
+.img1{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 40px;
+}
+
+.img2{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 50px;
+}
+
+.s3 .leftdiv{
+    position: relative;
+    left: 77px;
+    top: 300px;
+}
+
+.s3 span{
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 150px;
+    height: 260px;
+}
+
+.s3 .fdiv1{
+    background-color: white;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 240px;
+}
+
+.s3 .fdiv2{
+    background-color: white;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+.s3 .fdiv3{
+    background-color: white;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 240px;
+}
+
+.s3 h5{
+    color: rgb(21, 153, 255);
+}
+
+.s3 h4{
+    position: relative;
+    bottom: 15px;
+}
+
+.s3 small{
+    position: relative;
+    bottom: 15px;
+    color: rgb(130, 168, 194);
+}
+
+.s3 .leftdiv input{
+    border: none;
+    color: rgb(21, 153, 255);
+}
+
+.s3 .fdiv1 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.s3 .fdiv2 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.s3 .fdiv3 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.blank{
+    background-color: rgb(21, 153, 255);
+    margin-left: 15px;
+    padding: 15px;
+    width: 160px;
+    border: none;
+    outline: none;
+    height: 270px;
+    position: relative;
+    left: 685px;
+    bottom: 272px;
+}
+
+.s4{
+    background-color: rgb(21, 153, 255);
+    border: 2px solid black;
+    width: 860px;
+    height: 300px;
+    position: relative;
+    left: 85px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.s4 .ldiv{
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+
+.s4 .rdiv input{
+    border: 2px solid black;
+    position: relative;
+    left: 550px;
+    bottom: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: rgb(21, 153, 255);
+    font-weight: bold;
+}
+
+.s5 h2{
+    position: relative;
+    left: 85px;
+    top: 100px;
+}
+
+.s5 span{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 130px;
+}
+
+.s5 .fdiv1{
+    background-color: white;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 280px;
+}
+
+.s5 .fdiv2{
+    background-color: white;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 280px;
+}
+
+.s5 .fdiv3{
+    background-color: white;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 280px;
+}
+
+.s5 .fdiv1 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.s5 .fdiv2 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.s5 .fdiv3 input{
+    background-color: rgb(21, 153, 255);
+    color: white;
+    width: 240px;
+    height: 40px;
+    text-align: left;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+.s5 h5{
+    color: rgb(21, 153, 255);
+}
+
+.s5 h4{
+    position: relative;
+    bottom: 15px;
+}
+
+.s5 small{
+    position: relative;
+    bottom: 15px;
+    color: rgb(130, 168, 194);
+}
+
+.s6 .middiv{
+    background-color: rgb(224, 232, 237);
+    width: 870px;
+    height: 330px;
+    position: relative;
+    left: 80px;
+    top: 250px;
+    border-radius: 8px;
+}
+
+.s6 .textdiv{
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+    line-height: 0.7cm;
+    color: rgb(130, 168, 194);
+    width: 600px;
+}
+
+.f1 ul li{
+    list-style: none;
+}
+
+.f2 ul li{
+    list-style: none;
+}
+
+.f3 ul li{
+    list-style: none;
+}
+
+.f4 ul li{
+    list-style: none;
+}
+
+.f5 ul li{
+    list-style: none;
+}
+
+footer span{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+footer{
+    position: relative;
+    top: 335px;
+    height: 300px;
+    background-color: rgb(39, 52, 65);
+    color: rgb(130, 168, 194);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+footer h4{
+    color: white;
+    font-weight: normal;
+}
+
+footer div{
+    position: relative;
+    left: 15px;
+}
+
+footer small{
+    line-height: 0.8cm;
+}
+
+.endcopy{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    height: 60px;
+    background-color: rgb(31, 42, 52);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.endcopy small{
+    position: relative;
+    top: 15px;
+}

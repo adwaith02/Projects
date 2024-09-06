@@ -1,0 +1,67 @@
+.s1{
+    background-image: url('C:/Users/HP/Downloads/freepik-export-20240812155024h8sg.jpeg');
+}
+
+.btn{
+    border: 1px solid olivedrab ;
+    color: white;   
+}
+
+.s1 .h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.s1 .h5{
+    font-weight:bold ;
+}
+
+.s2c{
+    background-color: rgb(81, 80, 80);
+    color: white;
+    border-radius: 3px;
+}
+
+.s2container{
+    background-color: black;
+}
+
+.s3container{
+    background-color:rgb(239, 238, 237) ;
+}
+
+.s5container{
+    background-color:rgb(239, 238, 237) ;
+}
+
+.col1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("C:/Users/HP/Downloads/136588.jpg");
+    color: white;
+}
+
+.col1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("C:/Users/HP/Downloads/136588.jpg");
+}
+
+.bigcontain{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('C:/Users/HP/Downloads/2148217825.jpg');
+}
+
+.footcontainer h5{
+    color: white;
+}
+.footcontainer a{
+    color: rgb(155, 155, 155);
+}
+
+.footcontainer a{
+    text-decoration: none;
+}
+
+.footcontainer ul li{
+    list-style: none;
+}
+
+.footcontainer a:hover{
+    color: white;
+}

@@ -1,0 +1,284 @@
+.dm-sans-nature {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+  
+/* Main CSS Code Starts below */
+
+body{
+    margin: 0px;
+}
+
+.imgdiv img{
+    width: 1519px;
+    height: 640px;
+    opacity: 0.9;
+}
+
+.navbar .lnav img{
+    position: relative;
+    left: 150px;
+    bottom: 620px;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .rnav{
+    position: relative;
+    left: 820px;
+    bottom: 680px
+}
+
+.rnav{
+    width: 600px;
+}
+
+.navbar .rnav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar .rnav input[type=button]{
+    border-radius: 5px;
+    width: 160px;
+    height: 45px ;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+}
+
+.s1 .mid{
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    color: white;
+}
+
+.s1 .mid h2{
+    font-size: 48px;
+    font-weight:normal ;
+    position: relative;
+    bottom: 10px;
+}
+
+.s1 .mid h1{
+    font-size: 120px;
+    font-weight:normal ;
+    position: relative;
+    bottom: 100px;
+}
+
+.s1 .mid small{
+    font-size: 18px;
+    font-weight:normal ;
+    position: relative;
+    bottom: 170px;
+    line-height: 0.8cm;
+}
+
+.s1 .mid input[type=button]{
+    border-radius: 5px;
+    width: 160px;
+    height: 45px ;
+    border: 2px solid rgb(246, 213, 0);
+    background-color: rgb(246, 213, 0);
+    color: rgb(89, 91, 60);
+    font-size: medium;
+    position: relative;
+    bottom: 150px;
+}
+
+.s1{
+    height: 700px;
+}
+
+/* S1 ends here and S2 starts */
+
+.s2 h1{
+    text-align: center;
+}
+
+.s2 .imgdiv ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.s2 .imgdiv img{
+    width: 340px;
+    height: 460px;
+    padding-inline: 15px;
+}
+
+.s2 .imgdiv{
+    display: flex;
+    justify-content:space-around;
+}
+
+.s2 .services hr{
+    width: 80px;
+    border: 2px solid rgb(255, 213, 0);
+}
+
+.s2 .services h1{
+    color: rgb(51, 111, 35);
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.s2 .textdiv span{
+    display: inline-block;
+    padding: 70px
+}
+
+.s2 .textdiv{
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+    line-height: 0.6cm;
+    color: rgb(38, 93, 38);
+    width: 1300px;
+}
+
+.s2 .textdiv strong{
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(55, 103, 55);
+}
+
+.s3 img{
+  width: 70px;
+  height: 70px;
+}
+
+.s3{
+  text-align: center;
+  background-color: rgba(175, 190, 149, 0.1);
+  height: 400px;
+  padding-top: 10px;
+}
+
+.s3 h2{
+  color: darkolivegreen;
+  font-weight: normal;
+  position: relative;
+  bottom: 70px;
+}
+
+.s3 h1{
+  color: darkolivegreen;
+  font-size: 72px;
+}
+
+.s3 .imgdiv{
+  position: relative;
+  bottom: 50px;
+}
+
+.s4{
+  height: 660px;
+}
+
+.s4 .rdiv img{
+  width: 400px;
+  height: 500px;
+  border-radius: 2px;
+}
+
+.s4 .rdiv{
+  position: relative;
+  left: 900px;
+  bottom: 280px;
+  width: 450px;
+}
+
+.s4 .ldiv{
+  width: 390px;
+  position: relative;
+  left: 230px;
+  top: 180px;
+  color: darkolivegreen;
+}
+
+.s4 .ldiv h2{
+  font-weight: normal;
+  font-size: 31px;
+}
+
+.s4 .ldiv small{
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.s4 .ldiv input{
+  border-radius: 5px;
+  width: 180px;
+  height: 45px ;
+  border: 1px solid rgb(54, 54, 54);
+  background-color: transparent;
+  color:darkolivegreen;
+  font-size: medium;
+}
+
+.s5{
+  height: 450px;
+}
+
+.s5 .imgdiv img{
+  height: 450px;
+}
+
+.s5 .textdiv{
+  color: darkolivegreen;
+  text-align: center;
+  position: relative;
+  bottom: 400px;
+}
+
+.s5 .textdiv h1{
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.s5 .textdiv h4{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 0.7cm;
+}
+
+.s5 .textdiv input{
+  border-radius: 5px;
+  width: 180px;
+  height: 45px ;
+  border: 2px solid rgb(246, 213, 0);
+  background-color: rgb(246, 213, 0);
+  color:darkolivegreen;
+  font-size: medium;
+}
+
+.end ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.end{
+  width: 1400px;
+  margin-left: 70px;
+}
+
+.end img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+}
+
+footer{
+  height: 100px;
+}

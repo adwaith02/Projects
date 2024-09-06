@@ -1,0 +1,21 @@
+.flex-container div{
+    background-color:aliceblue ;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    /* align-content: center; to align the flex lines. Properties same as align-items */
+}
+
+.flex-container{
+    display: flex;
+    background-color:bisque;
+    /* justify-content: space-between; */     /* justify-content property: center, flex-end,flex-start, space-around, space-between */
+    /* flex-wrap: wrap; flex-wrap - wrap, nowrap, wrap-reverse */
+    /* flex-flow: row,wrap; for setting both */
+    /* flex-direction:column; for setting the direction - column, column-revese, row, row-reverse */
+    height: 200px;
+    /* align-items: center;    The align-items property is used to align the flex items: center, flex-start, flex-end, stretch, baseline */
+    
+}

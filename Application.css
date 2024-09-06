@@ -1,0 +1,122 @@
+body{
+    background-image:linear-gradient(rgb(255, 16, 120),rgb(148, 28, 156))
+}
+
+form{
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgb(0, 111, 246),rgb(154, 0, 243));
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    margin-left: 15%;
+}
+
+#fname{
+    border: none;
+    outline: none;
+    margin-left: 16%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#lname{
+    border: none;
+    outline: none;
+    margin-left: 17%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#sname{
+    border: none;
+    outline: none;
+    margin-left: 13%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#male{
+    margin-left: 22%;
+}
+
+input[type=email]{
+    border: none;
+    outline: none;
+    margin-left: 23.5%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#phone{
+    border: none;
+    outline: none;
+    margin-left: 24%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#pass{
+    border: none;
+    outline: none;
+    margin-left: 19.2%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+#cpass{
+    border: none;
+    outline: none;
+    margin-left: 7%;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+input[type=checkbox]{
+    border: none;
+    outline: none;
+    margin-left: 25%;
+}
+
+#check{
+    margin-left: 1%;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(78, 86, 238);
+    padding: 3px;
+    text-align: center;
+    margin-left: 40%;
+    border-color: rgb(80, 116, 226);
+}
+
+span{
+    margin-left: 21%;
+}
+
+#dob{
+    margin-left: 13%;
+}
+
+select{
+    border-radius: 6px;
+}

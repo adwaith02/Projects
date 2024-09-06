@@ -1,0 +1,74 @@
+.c1{
+    background-image: url('C:/Users/HP/Downloads/brick-wall-painted-white_1194-7526.avif');
+    background-size: cover;
+}
+
+.c2{
+    background-image: url('C:/Users/HP/Downloads/brick-wall-painted-white_1194-7526.avif');
+    background-size: cover;
+}
+
+.head1{
+    font-size: 58px;
+    color: #446879;
+}
+
+.head2{
+    font-size: 46px;
+    color: #446879;
+}
+
+.head2p{
+    color: #446879;
+}
+
+.head3{
+    font-size: 46px;
+    color: #446879;
+}
+
+.head3p{
+    color: #446879;
+}
+
+.head4{
+    font-size: 44px;
+    color: #ae1f65;
+}
+
+.head4p{
+    font-size: 30px;
+    color: #446879;
+}
+
+.head5{
+    color: #446879;
+}
+
+.ctxt{
+    color: rgb(182, 163, 140);
+}
+
+.ctitle{
+    color: #446879;
+}
+
+del{
+    color: rgb(179, 177, 177);
+}
+
+.testimonialsection{
+    background-color: rgb(243, 243, 243);
+}
+
+ul li{
+    list-style: none;
+}
+
+.l1{
+    color: #446879;
+}
+
+.foot1{
+    color: white;
+}

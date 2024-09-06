@@ -1,0 +1,95 @@
+.maindiv{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 76, 255),rgb(119, 77, 255));
+    background-repeat: no-repeat;
+    height: 679px;
+}
+
+.formdiv{
+    background-color: white;
+    width: 1000px;
+    height: 650px;
+    line-height: 1.7cm;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 54px;
+    color: rgb(0, 76, 255);
+}
+
+.section1{
+    position: relative;
+    left: 60px;
+}
+
+.section2{
+    position: relative;
+    left: 60px;
+}
+
+.section3{
+    position: relative;
+    left: 60px;
+}
+
+.section4{
+    position: relative;
+    left: 60px;
+}
+
+.section1 input[type=text]{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 76, 255);
+    outline: none;
+}
+
+.section2 input[type=text], input[type=email]{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 76, 255);
+    outline: none;
+}
+
+.section3 textarea{
+    width: 850px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 76, 255);
+    outline: none;
+}
+
+.section4 input[type=submit]{
+    width: 250px;
+    height: 60px;
+    background-image: linear-gradient(rgb(0, 76, 255),rgb(119, 77, 255));
+    color: white;
+    border: none;
+    outline: none;
+}
+
+input[type=text]::placeholder{
+    font-size: 16px;
+    color: black;
+    font-weight:550;
+}
+
+.section2 input[type=email]::placeholder{
+    font-size: 16px;
+    color: black;
+    font-weight:550;
+}
+
+.section3 textarea::placeholder{
+    font-size: 16px;
+    color: black;
+    font-weight:550;
+}
